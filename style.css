@@ -1,0 +1,94 @@
+#input1 {
+    text-shadow: 2px 2px 2px turquoise;
+    width: 45px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    background-color: thistle;
+    box-shadow: 2px 2px 2px tomato;
+}
+
+#plus {
+    box-shadow: 2px 2px 2px tomato;
+    text-align: center;
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    background-color: rgb(251, 189, 134);
+}
+
+#minus {
+    box-shadow: 2px 2px 2px tomato;
+    text-align: center;
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    background-color: rgb(251, 189, 134);
+}
+
+#input2 {
+    text-shadow: 2px 2px 2px turquoise;
+    box-shadow: 2px 2px 2px tomato;
+    height: 30px;
+    font-size: 18px;
+    background-color: thistle
+}
+
+#main {
+    background-color: rgb(194, 248, 45);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.head h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    font-size: 36px;
+    text-decoration: underline solid;
+    text-shadow: 2px 2px 2px yellow;
+}
+
+.head {
+    margin-top: 60px;
+}
+
+.sub {
+    margin-top: 170px;
+}
+
+.tod{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 7px;
+    background-color: rgb(245, 245, 68);
+}
+.tod a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.tod a:hover{
+    text-decoration: underline;
+}
+.tod a:focus{
+    text-decoration: underline;
+}
+* {
+    margin: 0;
+}
+
+@media only screen and (max-width: 360px) {
+    #input2 {
+        margin: 8px;
+    }
+    #input1 {
+        margin: 5px;
+    }
+    #plus {
+        margin: 5px;
+    }
+    #minus {
+        margin: 5px;
+    }
+}
